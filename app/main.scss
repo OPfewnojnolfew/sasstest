@@ -1,2 +1,16 @@
+//base
+@import 'base/_setting.scss';
+//helper
 @import 'helpers/_variables';
+@import 'helpers/_mixins.scss';
+//components
 @import 'components/_button';
+.test {
+    color: red;
+    @extend %clearfix;
+}
+
+.test1 {
+    color: black;
+    @extend %clearfix;
+}

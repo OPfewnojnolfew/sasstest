@@ -1,3 +1,15 @@
 @charset "UTF-8";
 /*基本色值*/
-/*圆角*/
+.test, .test1 {
+  *zoom: 1; }
+  .test:before, .test1:before, .test:after, .test1:after {
+    content: "";
+    display: table; }
+  .test:after, .test1:after {
+    clear: both; }
+
+.test {
+  color: red; }
+
+.test1 {
+  color: black; }
