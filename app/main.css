@@ -8,8 +8,53 @@
   .test:after, .test1:after {
     clear: both; }
 
+.testx {
+  border: "black" solid #fff; }
+
+.item-1 {
+  background-position: 0px 0px; }
+
+.item-2 {
+  background-position: 0px -50px; }
+
+.item-3 {
+  background-position: 0px -100px; }
+
+.item-4 {
+  background-position: 0px -150px; }
+
+.item-5 {
+  background-position: -50px 50px; }
+
+.item-6 {
+  background-position: -50px 0px; }
+
+.item-7 {
+  background-position: -50px -50px; }
+
+.item-8 {
+  background-position: -50px -100px; }
+
+.item-9 {
+  background-position: -50px -150px; }
+
+.item-10 {
+  background-position: -100px 50px; }
+
+.item-11 {
+  background-position: -100px 0px; }
+
+.item-12 {
+  background-position: -100px -50px; }
+
+.item-13 {
+  background-position: -100px -100px; }
+
+.item-14 {
+  background-position: -100px -150px; }
+
 .test {
-  color: red; }
+  color: "blac12"; }
 
 .test1 {
   color: black; }

@@ -1,12 +1,13 @@
 //base
-@import 'base/_setting.scss';
+@import 'base/_setting';
 //helper
 @import 'helpers/_variables';
-@import 'helpers/_mixins.scss';
+@import 'helpers/_mixins';
 //components
 @import 'components/_button';
+$ava1:"blac12";
 .test {
-    color: red;
+    color: $ava1;
     @extend %clearfix;
 }
 

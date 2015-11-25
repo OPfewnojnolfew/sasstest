@@ -17,3 +17,8 @@
 %clearfix {
     @include clearfix;
 }
+
+
+.testx {
+    border: $ava1 solid #fff;
+}

@@ -1,0 +1,9 @@
+$icons:1 2 3 4 5 6 7 8 9 10 11 12 13 14;
+@for $i from 1 through length($icons) {
+    .item-#{nth($icons, $i)} {
+        @debug floor($i/5);
+        $x: floor($i/5);
+        $y: $i%5-1;
+        background-position: #{-$x*50+'px'} #{-$y*50+'px'};
+    }
+}
